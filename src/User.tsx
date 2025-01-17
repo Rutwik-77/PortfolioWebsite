@@ -80,6 +80,7 @@ const ProjectInfo = [
       "Mantine",
       "Tabler icons"
     ],
+    link:"77portfolio.netlify.app",
     github: "https://github.com/Rutwik-77/PortfolioWebsite",
   },
 ];
