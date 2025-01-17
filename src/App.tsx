@@ -1,7 +1,7 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
+ 
 /** @format */
 import "@mantine/core/styles.css";
-import { createTheme, MantineProvider } from "@mantine/core";
+import {  MantineProvider } from "@mantine/core";
 import HomePage from "./Components/HomePage";
 import { pdfjs } from "react-pdf";
 import AOS from "aos";
@@ -17,17 +17,17 @@ const App = () => {
     AOS.init();
   }, []);
 
-  const theme = createTheme({
-    breakpoints: {
-      'xs':'320px',
-      'sm':'476px',
-      'md':'640',
-      'bs':'768',
-      'lg':'900px',
-      'xl':'1024px',
-      '2xl':'1280px',
-    },
-  })
+  // const theme = createTheme({
+  //   breakpoints: {
+  //     'xs':'320px',
+  //     'sm':'476px',
+  //     'md':'640',
+  //     'bs':'768',
+  //     'lg':'900px',
+  //     'xl':'1024px',
+  //     '2xl':'1280px',
+  //   },
+  // })
 
   return (
     <h1>
