@@ -67,6 +67,21 @@ const ProjectInfo = [
     ],
     github: "https://github.com/Rutwik-77/SimpleMernApp",
   },
+  {
+    title: "Portfolio Website",
+    desc: "I built it using modern web development technologies like React.js for a dynamic and responsive interface, Tailwind CSS for beautiful and adaptable designs, and TypeScript to ensure type-safe and maintainable code. I also integrated Tabler Icons for sleek visuals, Mantine for powerful UI components, and Firebase for backend functionality and reliable hosting. ",
+    image: "/PortfolioWebsite.png",
+    live: true,
+    technologies: [
+      "React.js",
+      "Typescript",
+      "Firebase",
+      "Tailwind Css",
+      "Mantine",
+      "Tabler icons"
+    ],
+    github: "https://github.com/Rutwik-77/PortfolioWebsite",
+  },
 ];
 
 const SkillsInfo = [

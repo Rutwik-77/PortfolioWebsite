@@ -16,19 +16,6 @@ const App = () => {
   useEffect(() => {
     AOS.init();
   }, []);
-
-  // const theme = createTheme({
-  //   breakpoints: {
-  //     'xs':'320px',
-  //     'sm':'476px',
-  //     'md':'640',
-  //     'bs':'768',
-  //     'lg':'900px',
-  //     'xl':'1024px',
-  //     '2xl':'1280px',
-  //   },
-  // })
-
   return (
     <h1>
       <MantineProvider>
