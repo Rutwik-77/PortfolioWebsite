@@ -83,6 +83,26 @@ const ProjectInfo = [
     link:"77portfolio.netlify.app",
     github: "https://github.com/Rutwik-77/PortfolioWebsite",
   },
+  {
+    title: "Chat App",
+    desc: "a real-time chat application built using the MERN stack (MongoDB, Express, React, Node.js). The app offers seamless instant messaging with WebSocket integration, allowing users to communicate in real time. It features secure authentication using JWT and bcrypt, ensuring privacy and data protection. The responsive user interface was developed with React, offering a smooth and intuitive experience across devices. The backend, powered by Node.js and Express, handles API requests efficiently, while MongoDB ensures secure and scalable data storage. ",
+    image: "/ChatApp.png",
+    live: true,
+    technologies: [
+      "React.js",
+      "Javascript",
+      "Tailwind Css",
+      "Daisy UI",
+      "MongoDB",
+      "Express",
+      "Node.js",
+      "Socket.io",
+      "JWT",
+    ],
+    link:"https://chatapp-cicc.onrender.com/",
+    github: "https://github.com/Rutwik-77/ChatApp",
+  },
+  
 ];
 
 const SkillsInfo = [
